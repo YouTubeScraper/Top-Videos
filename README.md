@@ -8,9 +8,8 @@ These videos will also have scores for relevance.
 
 Relevance score will tell you how relevant the videos are to the keywords
 ## Prerequisites
+Python 3
 
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ## Installation
 ```bash
