@@ -6,22 +6,24 @@ import time
 import operator
 import bs4 as bs
 import datetime
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
+from bs4 import BeautifulSoup # For Extracting tags from YouTube video's HTML
+from urllib.request import urlopen # Opening the YouTube Video Link
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-from datetime import date
-from textblob import TextBlob
+from selenium.webdriver.support import expected_conditions as EC # Will extract data when it finds certain conditions
+from selenium.webdriver.support.ui import WebDriverWait # Adding Waits to the webpage for it to load
+from selenium.webdriver.common.keys import Keys # For Scrolling the Page
+from selenium.webdriver.firefox.options import Options # For Headless mode
+from datetime import date # For Date
+from textblob import TextBlob # For Tokenizer
 
 """
 This little piece of code is added to make the webdriver run silently
 Generally when you use WebDriver in Selenium it opens a new window
 If you have automated some functions you can also see those functions happening live
 To avoid it use this option called "headless" which does all this in the background
+
+You will also have to remove the browser.maximize() for the Browser window to not open
 
 Web Driver object creation
 Note: Before importing Selenium Webdriver
@@ -105,8 +107,10 @@ def search():
     Please note here you need to use an Adblock to avoid advertisement videos to be a part of your list
     Add the filepath to your .xpi file
     """
-    extension = "{your }" 
+    extension = "{your addon file location}"
     #browser.install_addon(extension, temporary = True)
+    #Un-comment the above line to make the extension installation work
+    
 
     # Change value of While Loop to scroll more pages
     i=0
@@ -125,7 +129,8 @@ def search():
     for i in v_l:
         link.append(i.get_attribute('href'))
         
-    #print(link) 
+    #Use a print statement to check if all the links are present properly before moving on the scraping part    
+       
     wait = WebDriverWait(browser,15)
     df = pd.DataFrame(columns = ['Link','Title','URL','Views','Likes','Dislikes','Subcount','Date','Days','Score','Tags'])
     k=0
