@@ -43,7 +43,7 @@ Run the second and third cell for output
 
 ## Authors
 
-* [Arjun Praveen](https://github.com/PurpleBooth)
+* [Arjun Praveen](https://github.com/ArjunPraveen)
 * [Viraj Shetty](https://github.com/VirajVShetty)
 
 ## License
