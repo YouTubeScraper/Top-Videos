@@ -261,6 +261,7 @@ def search():
             
             
             print('{}: {}/{} ,{} , {:.2f}'.format(url,co,len(tag_list),v_tag,v_score))
+            #This statement is for printing all the links every time it is extracted
 
             
             df.loc[len(df)] = [v_link,v_title,v_url,v_views,v_likes,v_dislikes,v_subcount,v_date,v_days,v_score,v_tags]
