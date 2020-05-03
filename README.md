@@ -9,7 +9,7 @@ These videos will also have scores for relevance.
 Relevance score will tell you how relevant the videos are to the keywords
 ## Prerequisites
 * Python 3
-* [Patience](https://medium.com/level-up-web/youtube-background-music-for-coding-99b592a74dc8)
+* [Patience :)](https://medium.com/level-up-web/youtube-background-music-for-coding-99b592a74dc8)
 
 
 
@@ -36,6 +36,10 @@ pip3 install jupyter
 
 Open the [jupyter notebook](https://github.com/YouTubeScraper/Top-Videos/blob/master/yt.ipynb) and run
 the first cell to install all the python modules required
+
+## Output
+Run the second and third cell for output
+
 
 
 ## License
