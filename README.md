@@ -84,8 +84,8 @@ Run the second and third cell for output
 
 ## Authors
 
-* **[Arjun Praveen(https://github.com/PurpleBooth)]**
-* **[Viraj Shetty(https://github.com/VirajVShetty)]**
+* [Arjun Praveen](https://github.com/PurpleBooth)
+* [Viraj Shetty](https://github.com/VirajVShetty)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
