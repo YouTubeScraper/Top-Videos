@@ -5,8 +5,8 @@
 Scraping data for a given keyword. 
 The output would be a set of links for different Category of Videos.
 These videos will also have scores for relevance.
-Relevance score will tell you how relevant the videos are to the keywords
-Analysis carried out for several parameters (such as likes, dislikes, number of subscribers, etc. )
+Relevance score will tell you how relevant the videos are to the keywords.
+Analysis carried out for several parameters (such as likes, dislikes, number of subscribers, etc.)
 ## Prerequisites
 * Python 3
 * [Patience :)](https://medium.com/level-up-web/youtube-background-music-for-coding-99b592a74dc8)
