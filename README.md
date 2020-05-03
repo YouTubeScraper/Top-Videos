@@ -17,7 +17,7 @@ Jupyter-Notebook
 pip3 install -r requirements.txt
 ```
 
-[Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/index.html)<br /> 
+[Jupyter Notebook: ](https://jupyter.readthedocs.io/en/latest/index.html)<br /> <br />
 First, ensure that you have the latest pip; older versions may have trouble with some dependencies:
 ```bash
 pip3 install --upgrade pip
