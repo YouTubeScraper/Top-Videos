@@ -10,6 +10,7 @@ Analysis carried out for several parameters (such as likes, dislikes, number of 
 ## Prerequisites
 * Python 3
 * [Patience :)](https://medium.com/level-up-web/youtube-background-music-for-coding-99b592a74dc8)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 
 
