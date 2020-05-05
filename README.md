@@ -18,7 +18,7 @@ Analysis carried out for several parameters (such as likes, dislikes, number of 
 pip3 install -r requirements.txt
 ```
 
-[Jupyter Notebook: ](https://jupyter.readthedocs.io/en/latest/index.html)
+#### [Jupyter Notebook: ](https://jupyter.readthedocs.io/en/latest/index.html)
 
 
 First, ensure that you have the latest pip; older versions may have trouble with some dependencies:
@@ -30,6 +30,13 @@ Then install the Jupyter Notebook using:
 ```bash
 pip3 install jupyter
 ```
+#### [Geckodriver: ](https://github.com/mozilla/geckodriver/releases)
+
+* [On MacOS](https://www.kenst.com/2016/12/installing-marionette-firefoxdriver-on-mac-osx/) 
+
+* [On Windows](http://kennethhutw.blogspot.com/2017/03/how-to-install-geckodriver-on-windows.html) 
+
+* [On Ubuntu](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu)
 
 
 ## Dependencies
